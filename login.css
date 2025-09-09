@@ -1,0 +1,43 @@
+body{
+    background-color: #8b8585;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 100px;
+    text-align: center;
+    color: #3B2F2F;
+}
+label{
+    font-size: 30px;
+    font-weight: 300px;
+    color: blue;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 50px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+input[type="password"] {
+    padding: 10px;
+    border: 50px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+input[type="email"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 50px;
+    background-color: antiquewhite;
+}
+.button{
+    width: 150px;
+    border: solid 5px slateblue;
+    border-radius: 15px;
+}
+.button:hover {
+    background-color: blueviolet;
+}
